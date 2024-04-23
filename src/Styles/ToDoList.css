@@ -1,0 +1,63 @@
+.todolist{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    gap: 25px;
+    width: 500px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: #1A1A40;
+    border-radius: 10px;
+}
+
+.todolistform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.taskInput{
+    width: 400px;
+    border-right: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #8758ff;
+    background-color: #1A1A40;
+    height: 45px;
+    color:white;
+    outline: none;
+}
+
+.taskInput::placeholder{
+    color:#8758ff;
+}
+
+.taskInputButton{
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: #8758ff;
+    color: white;
+    margin-left: -100px;
+    font-weight: 600;
+}
+
+.inputLists{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+}
+
+.individualList{
+    display: flex;
+}
+
+.emptySign{
+    font-size: 20px;
+    text-align: center;
+    color: #8758ff;
+}

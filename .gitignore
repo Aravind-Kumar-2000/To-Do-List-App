@@ -5,6 +5,13 @@
 /.pnp
 .pnp.js
 
+# database
+/data
+/db.json
+
+# API_URL
+/src/Template/apiUrl.js
+
 # testing
 /coverage
 
